@@ -5,12 +5,12 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="relative z-0 w-full h-full  flex flex-col justify-center items-center overflow-hidden bg-opacity-75 bg-[url('/bg_house.jpg')] bg-cover mt-[60px]">
-      {/* Background Overlay */}
+      
       <div className="absolute inset-0 -z-50 h-full w-full bg-zinc-100 bg-opacity-80"></div>
 
-      {/* Hero Content */}
+      
       <div className="container flex flex-col md:flex-row items-center justify-center md:ml-[150px] mt-10 h-full px-4 sm:px-6 lg:px-8">
-        {/* Left Section */}
+        
         <div className="h-fit w-full md:w-1/2 md:ml-10 text-center md:text-left">
           <h1 className="text-[1.75rem] font-extrabold leading-10 tracking-wider sm:text-5xl custom:text-4xl sm:leading-none lg:text-5xl text-[#044E83]">
             Governor Sindh
@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right Section */}
+        
         <div className="relative w-full md:w-1/2 flex justify-center md:justify-end">
           <Image
             src="/herocover.png"

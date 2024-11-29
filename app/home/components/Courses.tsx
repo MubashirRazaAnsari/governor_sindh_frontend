@@ -7,17 +7,17 @@ const Courses = () => {
     {
       name: "Programming Fundamentals",
       img: "/programming_fundamentals.jpg",
-      pageLink: "/",
+      pageLink: "/compulsory/1",
     },
     {
       name: "Web2 Using Nextjs",
       img: "/nextjs.jpg",
-      pageLink: "/",
+      pageLink: "/compulsory/2",
     },
     {
       name: "Earn as you Learn",
       img: "/earn_as_you_learn.jpg",
-      pageLink: "/",
+      pageLink: "/compulsory/3",
     },
   ];
 
@@ -25,32 +25,32 @@ const Courses = () => {
     {
       name: "Artificial Intelligence",
       img: "/AI.jpg",
-      pageLink: "/",
+      pageLink: "/tracks/ai/4",
     },
     {
       name: "Web 3 and Metaverse",
       img: "/metaverse.jpg",
-      pageLink: "/",
+      pageLink: "/tracks/wmd/4",
     },
     {
       name: "Cloud-Native Computing",
       img: "/cloudComputing.jpg",
-      pageLink: "/",
+      pageLink: "/tracks/cnc/4",
     },
     {
       name: "Ambient Computing and IoT",
       img: "/iot.jpg",
-      pageLink: "/",
+      pageLink: "/tracks/iot/4",
     },
     {
       name: "Genomics and Bioinformatics",
       img: "/genomics.jpg",
-      pageLink: "/",
+      pageLink: "/tracks/gbs/4",
     },
     {
       name: "Network Programmability and Automation",
       img: "/automation.jpg",
-      pageLink: "/",
+      pageLink: "/tracks/npa/4",
     },
   ];
 
